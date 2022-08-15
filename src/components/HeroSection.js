@@ -15,7 +15,7 @@ function HeroSection() {
           buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
-          GET STARTED
+          BROWSE PRODUCTS
         </Button>
       </div>
     </div>

@@ -41,7 +41,7 @@ function Navbar() {
                 Home
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 to="/services"
                 className="nav-links"
@@ -49,7 +49,7 @@ function Navbar() {
               >
                 Services
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link
                 to="/products"
@@ -59,18 +59,36 @@ function Navbar() {
                 Products
               </Link>
             </li>
-
-            <li>
-              <Link
-                to="/sign-up"
-                className="nav-links-mobile"
-                onClick={closeMobileMenu}
+            <li className="nav-item">
+              {/* <Link
+                class="social-icon-link instagram nav-links"
+                to="/"
+                target="_blank"
+                aria-label="Instagram"
               >
-                Sign Up
-              </Link>
+                <i class="fab fa-instagram" />
+              </Link> */}
+              <a
+                class="social-icon-link facebook nav-links"
+                target="_blank"
+                href="https://www.facebook.com/mushi.bari"
+              >
+                <i class="fab fa-instagram" />
+              </a>
             </li>
+            <li className="nav-item">
+              <a
+                class="social-icon-link facebook nav-links"
+                target="_blank"
+                href="https://www.facebook.com/mushi.bari"
+              >
+                <i class="fab fa-facebook-f" />
+              </a>
+            </li>
+
+            <li></li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
+          {/* {button && <Button buttonStyle="btn--outline">SIGN UP</Button>} */}
         </div>
       </nav>
     </>
